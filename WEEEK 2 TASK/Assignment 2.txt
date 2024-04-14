@@ -1,0 +1,25 @@
+1) What distinguishes semantic HTML elements from normal HTML elements?
+
+Normal HTML elements, such as <div> and <span>, are focused on the presentation aspect of the content, essentially describing how the content should look on the page.
+
+Semantic HTML elements, on the other hand, are designed to convey meaning to both humans and machines, describing the content type and its purpose. They provide a clear and structured document outline and make it easier for users and search engines to understand the content. 
+
+For example, the <article> element signifies an independent, self-contained piece of content that can be reused and syndicated. Other semantic elements include <header>, <footer>, <nav>, <main>, <section>, and <aside>, each with a specific role and meaning.
+
+2) What is the difference between closing tags and self-closing tags in HTML?
+
+Closing tags are used to explicitly mark the end of an HTML element and are required for all elements except for self-closing ones. A closing tag consists of a forward slash followed by the element name, like </p> for a paragraph.
+Self-closing tags, on the other hand, are used for elements that do not have any content inside them and do not require a separate closing tag. A self-closing tag consists of the element name followed by a forward slash, like <img src="image.jpg"/> for an image.
+Self-closing tags are typically used for elements such as images, line breaks, and input fields, making them useful for creating more concise and efficient code. However, it's important to note that not all elements can be self-closed, and some older browsers may not support this syntax.
+
+3) What distinguishes inline elements from block elements in HTML?
+Block elements start on a new line and usually take up the full available width. They act as independent building blocks, stacked vertically to create the page's layout. Examples include <p>, <h1>, and <div>. Block elements can contain other block and inline elements, but inline elements cannot contain block elements.
+Inline elements, on the other hand, flow along the same line as the surrounding content. They only occupy the horizontal space needed for their content and don't force a line break before or after. Examples of inline elements include <span>, <strong>, and <a>. These elements are used for styling and formatting specific parts of text within a block-level element, providing greater flexibility and control over the presentation of web content.
+
+4) What distinguishes inline elements from block elements in HTML?
+
+Inline elements, flow along the same line as the surrounding content. They only occupy the horizontal space needed for their content and don't force a line break before or after. Examples of inline elements include <span>, <strong>, and <a>. These elements are used for styling and formatting specific parts of text within a block-level element, providing greater flexibility and control over the presentation of web content.
+
+Block elements, on the other hand, start on a new line and usually take up the full available width. They act as independent building blocks, stacked vertically to create the page's layout. Examples include <p>, <h1>, and <div>. Block elements can contain other block and inline elements, but inline elements cannot contain block elements.
+
+
